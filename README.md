@@ -21,8 +21,10 @@ This work was developed as part of my Bachelor's thesis.
 
 ---
 
-## 📂 Project Structure
 
+## 📁 Project Structure
+
+```
 app/
 └── src/
     └── main/
@@ -39,22 +41,22 @@ app/
         │        ├── QueryListenerService.kt
         │        ├── SelectionScreen.kt
         │        ├── LoginActivity.kt
-        │        ├── (other UI + logic files)
+        │        └── (other UI + logic files)
         │
         ├── assets/
-        │   ├── llm/              # Place only quantized int4.bin model 
+        │   ├── llm/                    # Place only quantized int4.bin model 
         │   │    └── model.task
         │   │
-        │   ├── json/              # # Place PDF chunks with embeddings
+        │   ├── json/                   # Place PDF chunks with embeddings
         │   │    ├── chunk_1.json
         │   │    ├── chunk_2.json
         │   │    └── ...
         │   │
-        │   └── config/            # Optional configs
+        │   └── config/                 # Optional configs
         │
         ├── AndroidManifest.xml
         └── res/
-
+```
 
 ### 📌 Key Components
 
