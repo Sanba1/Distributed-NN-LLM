@@ -22,35 +22,39 @@ This work was developed as part of my Bachelor's thesis.
 ---
 
 ## 📂 Project Structure
+
 app/
 └── src/
-└── main/
-├── java/
-│   └── com/google/mediapipe/examples/llminference/
-│        ├── MainActivity.kt
-│        ├── InferenceModel.kt
-│        ├── ChunkRepository.kt
-│        ├── QueryData.kt
-│        ├── FirebaseListener.kt
-│        ├── LoadJsonFile.kt
-│        ├── ChatScreen.kt
-│        ├── ChatViewModel.kt
-│        ├── QueryListenerService.kt
-│        ├── SelectionScreen.kt
-│        ├── LoginActivity.kt
-│        ├── (and other UI + logic files)
-│
-├── assets/
-│   ├──llm/ # Place only quantized int4.bin model 
-│   │    └── model.task
-│   ├── json/ # Place PDF chunks with embeddings
-│   │    ├── chunk_1.json
-│   │    ├── chunk_2.json
-│   │    └── ...
-│   └── config/               # Optional configs
-│
-├── AndroidManifest.xml
-└── res/
+    └── main/
+        ├── java/
+        │   └── com/google/mediapipe/examples/llminference/
+        │        ├── MainActivity.kt
+        │        ├── InferenceModel.kt
+        │        ├── ChunkRepository.kt
+        │        ├── QueryData.kt
+        │        ├── FirebaseListener.kt
+        │        ├── LoadJsonFile.kt
+        │        ├── ChatScreen.kt
+        │        ├── ChatViewModel.kt
+        │        ├── QueryListenerService.kt
+        │        ├── SelectionScreen.kt
+        │        ├── LoginActivity.kt
+        │        ├── (other UI + logic files)
+        │
+        ├── assets/
+        │   ├── llm/              # Place only quantized int4.bin model 
+        │   │    └── model.task
+        │   │
+        │   ├── json/              # # Place PDF chunks with embeddings
+        │   │    ├── chunk_1.json
+        │   │    ├── chunk_2.json
+        │   │    └── ...
+        │   │
+        │   └── config/            # Optional configs
+        │
+        ├── AndroidManifest.xml
+        └── res/
+
 
 ### 📌 Key Components
 
